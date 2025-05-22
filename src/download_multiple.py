@@ -3,8 +3,8 @@ from pathlib import Path
 import shutil
 
 # 🔧 Parameters — adjust these as needed
-subjects = [1, 2, 3]       # participants S001, S002, S003
-runs = [1, 3]              # Run 1 = rest (eyes open), Run 3 = motor imagery
+subjects = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]       # participants S001, S002, S003 - S010
+runs = [1, 2, 3, 7, 8]                           # Run 1,2 = rest (eyes open), Run 3,7,8 = motor imagery
 
 # 💾 Target directory to organize data in your project
 target_dir = Path("data/raw")
